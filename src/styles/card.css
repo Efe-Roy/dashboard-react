@@ -1,0 +1,139 @@
+.roy {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 120px;
+    max-width: 205px;
+    width: 100%;
+    color: #ffffff;
+    text-align: left;
+    line-height: 0.3em;
+    background-color: #fffafa;
+    border-radius: 9px;
+}
+
+.roy * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.roy img {
+    max-width: 97%;
+    vertical-align: top;
+    opacity: 0.85;
+    border-radius: 20px;
+    margin: 4px;
+}
+
+.roy figcaption {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 25px;
+    position: relative;
+}
+
+.roy figcaption:before {
+    position: absolute;
+    content: '';
+    bottom: 100%;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    /* border-width: 55px 0 0 400px; */
+    border-color: transparent transparent transparent #0cd80c;
+}
+
+.roy figcaption a {
+    padding: 5px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    margin: 10px 0;
+    display: inline-block;
+    opacity: 0.65;
+    width: 47%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.roy figcaption a:hover {
+    opacity: 1;
+}
+
+.roy .profile {
+    border-radius: 50%;
+    position: absolute;
+    bottom: 80%;
+    left: 5px;
+    z-index: 1;
+    max-width: 50px;
+    max-height: 50px;
+    opacity: 1;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.roy .fav {
+    background-color:azure;
+    border: none;
+    position: absolute;
+    bottom: 260%;
+    right: 9px;
+    color: red;
+    z-index: 1;
+    max-width: 70px;
+    max-height: 50px;
+}
+
+.roy .follow {
+    margin-right: 4%;
+    border-color: #2980b9;
+    color: #2980b9;
+}
+
+.roy .info {
+    /* margin-right: 4%; */
+    border-color: #29b960;
+    color: #29b954;
+}
+
+.roy h2 {
+    /* margin: 0 0 5px; */
+    font-weight: 100;
+    font-size: 1.1em;
+    color: #141414;
+    /* margin-right: 4%; */
+}
+
+.roy span {
+    font-size: 0.5em;
+    color: #2980b9;
+    margin-top: 15px;
+}
+
+.roy .flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.flex-child:first-child {
+    margin-right: 60px;
+}
+
+.roy p {
+    /* margin: 0 0 10px; */
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    color: #141414;
+}
+

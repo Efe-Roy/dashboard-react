@@ -1,0 +1,8 @@
+.compp {
+    height: 12vh;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #060b26;
+}

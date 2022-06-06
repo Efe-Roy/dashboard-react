@@ -1,0 +1,9 @@
+section {
+  width: 70%;
+  margin: auto;
+  margin-top: 5%;
+  margin-right: 5%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+}
